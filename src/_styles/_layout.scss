@@ -25,27 +25,3 @@ body, html {
   color: #000;
   padding: 0.5em 0;
 }
-
-
-//- responsive typography
-html {
-  font-size: 16px;
-}
-
-@include media-breakpoint-up(sm) {
-  html {
-    font-size: 16px;
-  }
-}
-
-@include media-breakpoint-up(md) {
-  html {
-    font-size: 18px;
-  }
-}
-
-@include media-breakpoint-up(lg) {
-  html {
-    font-size: 20px;
-  }
-}
