@@ -6,30 +6,23 @@ block config
 
 doctype html
 
-<!--[if lt IE 9]>
-<html class='lt-ie9 no-js' lang='en'>
-<![endif]-->
-<!--[if gte IE 9]><!-->
-<html class='no-js' lang='en'>
-<!--<![endif]-->
+html(lang='en')
 
-head
-  meta(charset='utf-8')
-  meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
-  title flavius-bohaciuc-resume
-  meta(name='description', content= 'A new Yeogurt application')
-  meta(name='viewport', content='width=device-width, initial-scale=1.0')
-  block stylesheets
-    link(rel='stylesheet', href= baseUrl + 'styles/main.css')
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
+    title Flavius Bohaciuc - Junior Web Developer 
+    meta(name='description', content= 'I am Flavius Bohaciuc, a junior web developer / ninja hacker and this is my resume build in a new Yeogurt application.')
+    meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no')
+    block stylesheets
+      link(rel='stylesheet', href= baseUrl + 'styles/main.css')
 
-body
-  <!--[if lt IE 9]>
-  <p class='browsehappy'>You are using an <strong>outdated</strong> browser. Please <a href='http://browsehappy.com/'>upgrade your browser</a> to improve your experience.</p>
-  <![endif]-->
+  body(data-spy='scroll' data-target='#myNav')
+    .container-nopad
+      block content
 
-  block content
-
-  block scripts
-    script(src= baseUrl + 'scripts/main.js')
-
-</html>
+    block scripts
+      //- script(src= baseUrl + 'scripts/main.js')
+      script(src='https://code.jquery.com/jquery-3.1.1.slim.min.js')
+      script(src='https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js')
+      script(src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js')
