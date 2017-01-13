@@ -1,0 +1,29 @@
+nav.navbar.fixed-top.navbar-toggleable-md.navbar-inverse.bg-inverse
+  .container
+    button.navbar-toggler.navbar-toggler-right(type='button', data-toggle='collapse', data-target='#myNav', aria-controls='myNav', aria-expanded='false', aria-label='Toggle navigation')
+          span.navbar-toggler-icon
+    a.navbar-brand(href='#')
+          img.d-inline-block.align-top(src='' width='40' height='40' alt='logo')
+        .navbar-brand Flavius Bohaciuc
+          small.text-muted.hidden-xs-down | Ninja Hacker
+        #myNav.collapse.bg-inverse.navbar-collapse
+          ul.nav.nav-tabs.navbar-nav.ml-auto.mt-2.mt-md-0(role="tablist")
+            each link in site.data.content['top-menu']
+              li.nav-item
+                a.nav-link(href="#{link.href}" ) #{link.name}
+
+
+
+
+            //- li.nav-item
+            //-   a.nav-link(href='#home') Home 
+            //- li.nav-item
+            //-   a.nav-link(href='#profile') Profile
+            //- li.nav-item
+            //-   a.nav-link(href='#experiences') Experiences
+            //- li.nav-item
+            //-   a.nav-link(href='#abilities') Abilities
+            //- li.nav-item
+            //-   a.nav-link(href='#projects') Projects
+            //- li.nav-item
+            //-   a.nav-link(href='#contact') Contact

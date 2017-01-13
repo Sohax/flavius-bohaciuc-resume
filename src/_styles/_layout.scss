@@ -10,7 +10,8 @@
 
 body, html {
   @import url("http://fonts.googleapis.com/css?family=Arimo");
-  font-family: 'Arimo';
+  font-family: "Arimo" -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+;
   color: #000;
   position: relative;
   height: 100%;
