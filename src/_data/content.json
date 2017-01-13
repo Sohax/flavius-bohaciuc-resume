@@ -2,333 +2,161 @@
   "top-menu": [
     {
       "href": "#",
-      "text": "Home"
-    },
-    {
+      "name": "Home"
+    },{
       "href": "#profile",
-      "text": "Profile"
-    },
-    {
+      "name": "Profile"
+    },{
       "href": "#experiences",
-      "text": "Experiences"
-    },
-    {
+      "name": "Experiences"
+    },{
       "href": "#abilities",
-      "text": "Abilities"
-    },
-    {
+      "name": "Abilities"
+    },{
       "href": "#projects",
-      "text": "Projects"
-    },
-    {
+      "name": "Projects"
+    },{
       "href": "#contact",
-      "text": "Contact"
+      "name": "Contact"
     }
   ],
-  "page": {
-    "index": {
-      "pageTitle": "Flavius Bohaciuc - Junior Web Developer",
-      "pageDescription": "I am Flavius Bohaciuc, a junior web developer / ninja hacker and this is my resume build in a new Yeogurt application.",
-      "article": [
-        {
-          "title": "Flavius Bohaciuc",
-          "description": [
-            {
-              "type": "paragraph",
-              "content": "- web developer -"
-            }
-          ],
-          "image": {
-            "src": "/images/flv.svg"
-          }
-        },
-        {
-          "title": "Profile",
-          "description": [
-            {
-              "type": "paragraph",
-              "content": "I will conquer the world and make a difference."
-            }
-          ],
-          "subTitle": "About me",
-          "subDescription": [
-            {
-              "type": "paragraph",
-              "content": "I am an allround web developer.I am an entirely self-taught and self-motivated junior programmer with good knowledge of front-end techniques.I love structure and order and I also stand for quality. I love spending time on fixing little details and optimizing web apps. Also I like working in a team, you'll learn faster and more. As the saying goes: 'two heads are better than one'."
-            }
-          ],
-          "subTitle": "Details",
-          "subDescription": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "preInfo": "Name",
-                  "info": "Flavius Bohaciuc"
-                },
-                {
-                  "preInfo": "Age",
-                  "info": "25 years"
-                },
-                {
-                  "preInfo": "Location",
-                  "info": "London Borough of Barnet, United Kingdom, Earth"
-                }
-              ]
-            }
-          ],
-          "image": {
-            "src": "/images/myphoto.png"
-          }
-        },
-        {
-          "title": "Experiences",
-          "description": [
-            {
-              "type": "paragraph",
-              "content": "“Protons give an atom its identity, electrons its personality.”"
-            },
-            {
-              "type": "paragraph",
-              "content": "- Bill Bryson, A short history of nearly everything"
-            }
-          ],
-          "subTitle": [
-            {
-              "education": [
-                {
-                  "text": "Education",
-                  "subElement": [
-                    {
-                      "text": "Liceul Auto Timisoara",
-                      "description": "Baccalaureate Diploma: Mechatronics Technician - Is considered comparable to the overall GCE Advanced level / Scottish Advanced Higher standard (NARIC information). Year of Award: 2010"
-                    },
-                    {
-                      "text": "Hong Kong University",
-                      "description": "HTML, CSS and JavaScript, <a href=\"https://www.coursera.org/account/accomplishments/certificate/8CG8GQXA4CNL\" title=\"Certificate \">Certificate </a> earned on August 4, 2016"
-                    },
-                    {
-                      "text": "Hong Kong University",
-                      "description": "Front-End Web UI Frameworks and Tools, <a href=\"https://www.coursera.org/account/accomplishments/certificate/55A37U8C7X3J\" title=\"Certificate \">Certificate </a> earned on August 4, 2016"
-                    }
-                  ],
-                  "text": "Careers",
-                  "subElement": [
-                    {
-                      "text": "Car Electronics Installer (November 2010 – August 2013)",
-                      "description": "My job was to install car audio systems and basic alarm systems and check every electronic problems in customer cars."
-                    },
-                    {
-                      "text": "Freelancer (January 2014 – May 2015)",
-                      "description": "I had various projects in music industry and arts, I worked at <a href=\"http://reggaelizeit.com\" title=\"Reggaelize it! \">Reggaelize it!</a>"
-                    },
-                    {
-                      "text": "Junior Web Developer at Smart Yii (February 2016 - December 2016)",
-                      "description": "My job was to integrate, based on the designs and requirements using CSS, HTML, JavaScript etc: tables, forms, buttons, drop down menu, mega menu for small and big projects."
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "title": "Abilities",
-          "description": [
-            {
-              "type": "paragraph",
-              "content": "“Life without knowledge is death in disguise.”"
-            },
-            {
-              "type": "paragraph",
-              "content": "- Talib Kweli"
-            }
-          ],
-          "subtitle": [
-            {
-              "skills": [
-                {
-                  "title": "Skills",
-                  "skillList": [
-                    {
-                      "skill": {
-                        "name": "HTML (5)",
-                        "load": "*****"
-                      },
-                      "skill": {
-                        "name": "CSS (3)",
-                        "load": "*****"
-                      },
-                      "skill": {
-                        "name": "Javascript",
-                        "load": "*****"
-                      },
-                      "skill": {
-                        "name": "Bootstrap",
-                        "load": "*****"
-                      },
-                      "skill": {
-                        "name": "JQuery",
-                        "load": "*****"
-                      },
-                      "skill": {
-                        "name": "AngularJS",
-                        "load": "*****"
-                      },
-                      "skill": {
-                        "name": "SASS",
-                        "load": "*****"
-                      },
-                      "skill": {
-                        "name": "LESS",
-                        "load": "*****"
-                      },
-                      "skill": {
-                        "name": "JSON",
-                        "load": "*****"
-                      },
-                      "skill": {
-                        "name": "Gulp",
-                        "load": "*****"
-                      },
-                      "skill": {
-                        "name": "Node.js",
-                        "load": "*****"
-                      },
-                      "skill": {
-                        "name": "Command line",
-                        "load": "*****"
-                      },
-                      "skill": {
-                        "name": "SEO",
-                        "load": "*****"
-                      }
-                    },
-                    {
-                      "title": "Languages",
-                      "languageList": [
-                        {
-                          "skill": {
-                            "name": "Romanian (Mother tongue)",
-                            "load": "*****"
-                          },
-                          "skill": {
-                            "name": "English (Daily use)",
-                            "load": "****"
-                          },
-                          "skill": {
-                            "name": "German (Survivable)",
-                            "load": "**"
-                          }
-                        }
-                      ]
-                    },
-                    {
-                      "title": "Tools",
-                      "toolList": [
-                        {
-                          "tool": "Windows",
-                          "load": "*****"
-                        },
-                        {
-                          "tool": "Chrome",
-                          "load": "*****"
-                        },
-                        {
-                          "tool": "Firefox",
-                          "load": "*****"
-                        },
-                        {
-                          "tool": "Microsoft Office",
-                          "load": "*****"
-                        },
-                        {
-                          "tool": "Sublime Text",
-                          "load": "*****"
-                        },
-                        {
-                          "tool": "Git",
-                          "load": "****"
-                        },
-                        {
-                          "tool": "Adobe Photoshop",
-                          "load": "***"
-                        },
-                        {
-                          "tool": "Adobe Ilustrator",
-                          "load": "***"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "title": "Projects",
-              "description": [
-                {
-                  "type": "paragraph",
-                  "content": "“You can do anything you set your mind to.”"
-                },
-                {
-                  "type": "paragraph",
-                  "content": "- Benjamin Franklin"
-                }
-              ],
-              "subtitle": {
-                "projectList": [
-                  {
-                    "text": "Project 1",
-                    "description": "something"
-                  },
-                  {
-                    "text": "Project 1",
-                    "description": "something"
-                  },
-                  {
-                    "text": "Project 1",
-                    "description": "something"
-                  }
-                ]
-              }
-            }
-            {
-              "title": "Contact",
-              "description": [
-                {
-                  "type": "paragraph",
-                  "content": "“If I had asked people what they wanted, they would have said faster horses. ”"
-                },
-                {
-                  "type": "paragraph",
-                  "content": " - Henry Ford"
-                }
-              ],
-              "social": [
-                {
-                  "text": "facebook",
-                  "link": "/link to facebook"
-                },
-                {
-                  "text": "linkedin",
-                  "link": "/link to linkedin"
-                },
-                {
-                  "text": "email",
-                  "link": "/link to email"
-                },
-                {
-                  "text": "github",
-                  "link": "/link to github"
-                }
-              ],
-              "copyright": "© Copyright 2017 Flavius Bohaciuc"
-            }
-          ]
+  "content": [
+    {
+      "home": {
+        "title": "Flavius Bohaciuc",
+        "description": "- web developer -",
+        "image": {
+          "src": "/images/flv.svg"
         }
-      ]
+      }
+    },{
+      "profile": {
+        "title": "Profile",
+        "description": "I will conquer the world and make a difference.",
+        "image": {
+          "src": "/images/myphoto.png"
+        },
+        "about": {
+          "name": "About me",
+          "text": "I am an allround web developer.I am an entirely self-taught and self-motivated junior programmer with good knowledge of front-end techniques.I love structure and order and I also stand for quality. I love spending time on fixing little details and optimizing web apps. Also I like working in a team, you'll learn faster and more. As the saying goes: `two heads are better than one`."
+        },
+        "details": [
+          {
+            "name": "Details"
+          },
+          {
+            "pre": "Name:",
+            "info": "Flavius Bohaciuc"
+          },{
+            "pre": "Age:",
+            "info": "25 years"
+          },{
+            "pre": "Location",
+            "info": "London Borough of Barnet, United Kingdom, Eart"
+          }
+        ]
+      }
+    },{
+      "experiences": {
+        "title": "Experiences",
+        "description": {
+          "text": "“Protons give an atom its identity, electrons its personality.”",
+          "text": "- Bill Bryson, A short history of nearly everything"
+        },
+        "education": [
+          {
+            "name": "Education"
+          },
+          {
+            "pre": "High School Auto Timisoara",
+            "text": "Baccalaureate Diploma: Mechatronics Technician - Is considered comparable to the overall GCE Advanced level / Scottish Advanced Higher standard (NARIC information). Year of Award: 2010."
+          },
+          {
+            "pre": "Hong Kong University",
+            "text": "HTML, CSS and JavaScript, <a href=\"https://www.coursera.org/account/accomplishments/certificate/8CG8GQXA4CNL\" title=\"Certificate \">Certificate </a> earned on August 4, 2016."
+          },
+          {
+            "pre": "Hong Kong University",
+            "text": "Front-End Web UI Frameworks and Tools, <a href=\"https://www.coursera.org/account/accomplishments/certificate/55A37U8C7X3J\" title=\"Certificate \">Certificate </a> earned on August 4, 2016."
+          }
+        ],
+        "careers": [
+          {
+            "name": "Careers"
+          },
+          {
+            "pre": "Car Electronics Installer (November 2010 – August 2013)",
+            "text": "My job was to install car audio systems and basic alarm systems and check every electronic problems in customers cars."
+          },
+          {
+            "pre": "Freelancer (January 2014 – May 2015)",
+            "text": "I had various projects in music industry and arts, I worked at <a href=\"http://reggaelizeit.com\" title=\"Reggaelize it! \">Reggaelize it!</a>"
+          },
+          {
+            "pre": "Junior Web Developer at Smart Yii (February 2016 - December 2016)",
+            "text": "My job was to integrate, based on the designs and requirements using CSS, HTML, JavaScript etc: tables, forms, buttons, drop down menu, mega menu for small and big projects."
+          }
+        ]
+      }
+    },{
+      "abilities": {
+        "name": "Abilities",
+        "description": {
+          "text": "“Life without knowledge is death in disguise.”",
+          "text": "- Talib Kweli"
+        },
+        "skills": [
+          {
+            "name": "Skills",
+            "name": "Languages",
+            "name": "Tools"
+          },
+          {
+            "skillList": [
+              {
+                "name": "HTML (5)",
+                "load": "*****"
+              },{
+                "name": "CSS (3)",
+                "load": "*****"
+              },{
+                "name": "JavaScript",
+                "load": "*****"
+              },{
+                "name": "Bootstrap",
+                "load": "*****"
+              },{
+                "name": "JQuery",
+                "load": "*****"
+              },{
+                "name": "AngularJs",
+                "load": "*****"
+              },{
+                "name": "SASS",
+                "load": "*****"
+              },{
+                "name": "LESS",
+                "load": "*****"
+              },{
+                "name": "JSON",
+                "load": "*****"
+              },{
+                "name": "Gulp",
+                "load": "*****"
+              },{
+                "name": "Node.js",
+                "load": "*****"
+              },{
+                "name": "Command line",
+                "load": "*****"
+              },{
+                "name": "SEO",
+                "load": "*****"
+              }
+            ]
+          }
+        ]
+      }
     }
-  }
+  ]
 }
-

@@ -18,7 +18,8 @@ html(lang='en')
       link(rel='stylesheet', href= baseUrl + 'styles/main.css')
 
   body(data-spy='scroll' data-target='#myNav')
-    .container-nopad
+    .container-fluid
+      include ../_modules/top-menu
       block content
 
     block scripts
