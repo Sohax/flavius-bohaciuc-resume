@@ -3,19 +3,24 @@
     {
       "href": "#",
       "name": "Home"
-    },{
+    },
+    {
       "href": "#profile",
       "name": "Profile"
-    },{
+    },
+    {
       "href": "#experiences",
       "name": "Experiences"
-    },{
+    },
+    {
       "href": "#abilities",
       "name": "Abilities"
-    },{
+    },
+    {
       "href": "#projects",
       "name": "Projects"
-    },{
+    },
+    {
       "href": "#contact",
       "name": "Contact"
     }
@@ -29,131 +34,278 @@
           "src": "/images/flv.svg"
         }
       }
-    },{
+    },
+    {
       "profile": {
-        "title": "Profile",
+        "name": "Profile",
         "description": "I will conquer the world and make a difference.",
         "image": {
           "src": "/images/myphoto.png"
         },
-        "about": {
-          "name": "About me",
-          "text": "I am an allround web developer.I am an entirely self-taught and self-motivated junior programmer with good knowledge of front-end techniques.I love structure and order and I also stand for quality. I love spending time on fixing little details and optimizing web apps. Also I like working in a team, you'll learn faster and more. As the saying goes: `two heads are better than one`."
-        },
-        "details": [
+        "smartList": [
           {
-            "name": "Details"
+            "aboutList": [
+              {
+                "title": "About me",
+                "content": "I am an allround web developer.I am an entirely self-taught and self-motivated junior programmer with good knowledge of front-end techniques.I love structure and order and I also stand for quality. I love spending time on fixing little details and optimizing web apps. Also I like working in a team, you'll learn faster and more. As the saying goes: `two heads are better than one`."
+              }
+            ]
           },
           {
-            "pre": "Name:",
-            "info": "Flavius Bohaciuc"
-          },{
-            "pre": "Age:",
-            "info": "25 years"
-          },{
-            "pre": "Location",
-            "info": "London Borough of Barnet, United Kingdom, Eart"
+            "detailsList": [
+              {
+                "title": "Details",
+                "content": [
+                  {
+                    "subTitle": "Name:",
+                    "text": "Flavius Bohaciuc"
+                  },
+                  {
+                    "subTitle": "Age:",
+                    "text": "25 years"
+                  },
+                  {
+                    "subTitle": "Location",
+                    "text": "London Borough of Barnet, United Kingdom, Eart"
+                  }
+                ]
+              }
+            ]
           }
         ]
       }
-    },{
+    },
+    {
       "experiences": {
-        "title": "Experiences",
+        "name": "Experiences",
         "description": {
           "text": "“Protons give an atom its identity, electrons its personality.”",
           "text": "- Bill Bryson, A short history of nearly everything"
         },
-        "education": [
+        "smartList": [
           {
-            "name": "Education"
-          },
-          {
-            "pre": "High School Auto Timisoara",
-            "text": "Baccalaureate Diploma: Mechatronics Technician - Is considered comparable to the overall GCE Advanced level / Scottish Advanced Higher standard (NARIC information). Year of Award: 2010."
-          },
-          {
-            "pre": "Hong Kong University",
-            "text": "HTML, CSS and JavaScript, <a href=\"https://www.coursera.org/account/accomplishments/certificate/8CG8GQXA4CNL\" title=\"Certificate \">Certificate </a> earned on August 4, 2016."
-          },
-          {
-            "pre": "Hong Kong University",
-            "text": "Front-End Web UI Frameworks and Tools, <a href=\"https://www.coursera.org/account/accomplishments/certificate/55A37U8C7X3J\" title=\"Certificate \">Certificate </a> earned on August 4, 2016."
-          }
-        ],
-        "careers": [
-          {
-            "name": "Careers"
-          },
-          {
-            "pre": "Car Electronics Installer (November 2010 – August 2013)",
-            "text": "My job was to install car audio systems and basic alarm systems and check every electronic problems in customers cars."
-          },
-          {
-            "pre": "Freelancer (January 2014 – May 2015)",
-            "text": "I had various projects in music industry and arts, I worked at <a href=\"http://reggaelizeit.com\" title=\"Reggaelize it! \">Reggaelize it!</a>"
-          },
-          {
-            "pre": "Junior Web Developer at Smart Yii (February 2016 - December 2016)",
-            "text": "My job was to integrate, based on the designs and requirements using CSS, HTML, JavaScript etc: tables, forms, buttons, drop down menu, mega menu for small and big projects."
+            "educationList": [
+              {
+                "title": "Education",
+                "content": [
+                  {
+                    "subTitle": "High School Auto Timisoara",
+                    "text": "Baccalaureate Diploma: Mechatronics Technician - Is considered comparable to the overall GCE Advanced level / Scottish Advanced Higher standard (NARIC information). Year of Award: 2010."
+                  },
+                  {
+                    "subTitle": "Hong Kong University",
+                    "text": "HTML, CSS and JavaScript, <a href=\"https://www.coursera.org/account/accomplishments/certificate/8CG8GQXA4CNL\" title=\"Certificate \">Certificate </a> earned on August 4, 2016."
+                  },
+                  {
+                    "subTitle": "Hong Kong University",
+                    "text": "Front-End Web UI Frameworks and Tools, <a href=\"https://www.coursera.org/account/accomplishments/certificate/55A37U8C7X3J\" title=\"Certificate \">Certificate </a> earned on August 4, 2016."
+                  }
+                ]
+              }
+            ],
+            "careersList": [
+              {
+                "title": "Careers",
+                "content": [
+                  {
+                    "subTitle": "Car Electronics Installer",
+                    "date": "(November 2010 – August 2013)",
+                    "text": "My job was to install car audio systems and basic alarm systems and check every electronic problems in customers cars."
+                  },
+                  {
+                    "subTitle": "Freelancer",
+                    "date": "(January 2014 – May 2015)",
+                    "text": "I had various projects in music industry and arts, I worked at <a href=\"http://reggaelizeit.com\" title=\"Reggaelize it! \">Reggaelize it!</a>"
+                  },
+                  {
+                    "subTitle": "Junior Web Developer at Smart Yii",
+                    "date": "(February 2016 - December 2016)",
+                    "text": "My job was to integrate, based on the designs and requirements using CSS, HTML, JavaScript etc: tables, forms, buttons, drop down menu, mega menu for small and big projects."
+                  }
+                ]
+              }
+            ]
           }
         ]
       }
-    },{
+    },
+    {
       "abilities": {
         "name": "Abilities",
         "description": {
           "text": "“Life without knowledge is death in disguise.”",
           "text": "- Talib Kweli"
         },
-        "skills": [
-          {
-            "name": "Skills",
-            "name": "Languages",
-            "name": "Tools"
-          },
+        "smartList": [
           {
             "skillList": [
               {
-                "name": "HTML (5)",
-                "load": "*****"
-              },{
-                "name": "CSS (3)",
-                "load": "*****"
-              },{
-                "name": "JavaScript",
-                "load": "*****"
-              },{
-                "name": "Bootstrap",
-                "load": "*****"
-              },{
-                "name": "JQuery",
-                "load": "*****"
-              },{
-                "name": "AngularJs",
-                "load": "*****"
-              },{
-                "name": "SASS",
-                "load": "*****"
-              },{
-                "name": "LESS",
-                "load": "*****"
-              },{
-                "name": "JSON",
-                "load": "*****"
-              },{
-                "name": "Gulp",
-                "load": "*****"
-              },{
-                "name": "Node.js",
-                "load": "*****"
-              },{
-                "name": "Command line",
-                "load": "*****"
-              },{
-                "name": "SEO",
-                "load": "*****"
+                "title": "Skills",
+                "content":[
+                  {
+                    "name": "HTML (5)",
+                    "load": "*****"
+                  },
+                  {
+                    "name": "CSS (3)",
+                    "load": "*****"
+                  },
+                  {
+                    "name": "JavaScript",
+                    "load": "*****"
+                  },
+                  {
+                    "name": "Bootstrap",
+                    "load": "*****"
+                  },
+                  {
+                    "name": "JQuery",
+                    "load": "*****"
+                  },
+                  {
+                    "name": "AngularJs",
+                    "load": "*****"
+                  },
+                  {
+                    "name": "SASS",
+                    "load": "*****"
+                  },
+                  {
+                    "name": "LESS",
+                    "load": "*****"
+                  },
+                  {
+                    "name": "JSON",
+                    "load": "*****"
+                  },
+                  {
+                    "name": "Gulp",
+                    "load": "*****"
+                  },
+                  {
+                    "name": "Node.js",
+                    "load": "*****"
+                  },
+                  {
+                    "name": "Command line",
+                    "load": "*****"
+                  },
+                  {
+                    "name": "SEO",
+                    "load": "*****"
+                  }
+                ]
               }
             ]
+          },
+          {
+            "languagesList": [
+              {
+                "title": "Languages",
+                "content": [
+                  {
+                    "name": "Romanian (Mother tongue)",
+                    "load": "*****"
+                  },
+                  {
+                    "name": "English (Daily use)",
+                    "load": "*****"
+                  },
+                  {
+                    "name": "German (Survivable)",
+                    "load": "*****"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "toolsList": [
+              {
+                "title": "Tools",
+                "content": [
+                  {
+                    "name": "Windows",
+                    "load": "*****"
+                  },
+                  {
+                    "name": "Chrome",
+                    "load": "*****"
+                  },
+                  {
+                    "name": "Firefox",
+                    "load": "*****"
+                  },
+                  {
+                    "name": "Microsoft Office",
+                    "load": "*****"
+                  },
+                  {
+                    "name": "Sublime Text",
+                    "load": "*****"
+                  },
+                  {
+                    "name": "Git",
+                    "load": "*****"
+                  },
+                  {
+                    "name": "Adobe Photoshop",
+                    "load": "*****"
+                  },
+                  {
+                    "name": "Adobe Ilustrator",
+                    "load": "*****"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "projects": {
+        "name": "Projects",
+        "description": {
+          "text": "",
+          "text": ""
+        },
+        "smartList": [
+          {
+            "project": "one"
+          },
+          {
+            "project": "two"
+          },
+          {
+            "project": "three"
+          }
+        ]
+      }
+    },
+    {
+      "contact": {
+        "name": "Contact",
+        "description": {
+          "text": "",
+          "text": ""
+        },
+        "smartList": [
+          {
+            "href": "/",
+            "name": "Facebook"
+          },
+          {
+            "href": "/",
+            "name": "LinkedIn"
+          },
+          {
+            "href": "/",
+            "name": "Email"
+          },
+          {
+            "href": "/",
+            "name": "GitHub"
           }
         ]
       }
